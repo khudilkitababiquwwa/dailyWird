@@ -1,0 +1,21 @@
+.controls {
+ display: block;
+ height: 25px;
+ width:max-content;
+ background-color: rgba(128, 128, 128, 0.429);
+ z-index: 5;
+ padding: 1%;
+}
+
+#download {
+    width: calc(var(--font-size) * 7);
+}
+
+#scale {
+    width: 50px;
+    direction: ltr;
+}
+
+.goToPage {
+    display: inline-block;
+}

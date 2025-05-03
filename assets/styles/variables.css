@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "hafs";
+    src: url("../fonts/hafs.ttf");
+}
+
+:root {
+    --page-width: 384px;
+    --padding: calc(var(--page-width) / 7);
+    --page-height: calc(var(--page-width) * 1.46667);
+    --page-color: rgb(219, 221, 204);
+    --font-size: calc(var(--page-height) /23);
+    --line-height: calc((var(--page-width) / var(--page-height)));
+    --border: 1px black solid;
+    --special-font-size: calc(var(--page-height) / 22);
+    --background-color: rgb(60, 60, 62);
+}

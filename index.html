@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/variables.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/page.css">
+    <link rel="stylesheet" href="./assets/styles/controls.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Daily Wird Generator / KhudilKitabaBiquwwa</title>
+</head>
+
+<body>
+    <div class="controls">
+        <button id="prev">السابق</button>
+        <button id="next">التالي</button>
+        <button id="download" onclick="download()">تحميل الوِرد</button>
+        <select id="reciterSelect"></select>
+        <select id="scale">
+            <option value="1">x1</option>
+            <option value="2">x2</option>
+            <option value="4">x4</option>
+            <option value="8">x8</option>
+            <option value="16">x16</option>
+        </select>
+        <div class="goToPage">
+            <input type="number" min="1" max="604"  id="goToPageInput" class="page-input" placeholder="اذهب إلى صفحة...">
+            <button type="submit" id="goToPage">اذهب</button>
+        </div>
+    </div>
+    <div class="pages-container"><p class="basmalah">بِـــسۡـــمِ ٱللَّهِ ٱلرَّحۡمَٰــنِ ٱلرَّحِـــيــمِ</p></div>
+    <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3.5.0/dist/dom-to-image-more.min.js"></script>
+    <script src="./lib/variables.js"></script>
+    <script src="./lib/init.js" type="module"></script>
+    <script src="./lib/pages/controls.js" type="module"></script>
+    <script src="./lib/download.js"></script>
+</body>
+
+</html>

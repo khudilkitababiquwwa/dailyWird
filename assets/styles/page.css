@@ -1,0 +1,86 @@
+.pages-container {
+    margin-top: 2.5%;
+    flex-direction: row;
+    width: fit-content;
+    display: flex;
+    border: 2px dashed white;
+    position: absolute;
+}
+
+.page {
+    font-family: "hafs";
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    position: relative;
+    display: flex;
+    background-color: var(--page-color);
+    height: var(--page-height);
+    width: var(--page-width);
+    padding: var(--padding);
+    z-index: 0;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border-image {
+    margin: 1%;
+    display: flex;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    z-index: -1;
+}
+
+.page-tooltip {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: calc(var(--special-font-size) / 1.5);
+}
+
+.page-number {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+
+.page-number-text {
+    font-family: serif;
+}
+
+.surah-tooltip {
+    display: grid;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+}
+
+.jozz-tooltip {
+    justify-self: center;
+    width: max-content;
+    float: left;
+}
+
+.ayahs-container {
+    height: 92%;
+}
+
+h2 {
+    font-size: var(--special-font-size);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.basmalah {
+    font-size: var(--special-font-size);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
