@@ -4,7 +4,7 @@
 }
 
 :root {
-    --page-width: 384px;
+    --page-width: calc(30vw / 1.2);
     --padding: calc(var(--page-width) / 7);
     --page-height: calc(var(--page-width) * 1.46667);
     --page-color: rgb(219, 221, 204);

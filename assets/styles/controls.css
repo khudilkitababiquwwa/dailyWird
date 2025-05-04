@@ -5,14 +5,15 @@
  background-color: rgba(128, 128, 128, 0.429);
  z-index: 5;
  padding: 1%;
+ justify-items: center;
 }
 
 #download {
-    width: calc(var(--font-size) * 7);
+    width: 10vw;
 }
 
 #scale {
-    width: 50px;
+    width: 5vw;
     direction: ltr;
 }
 
