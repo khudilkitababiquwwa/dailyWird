@@ -377,8 +377,10 @@
         "name": "أيمن سويد - 64kbps",
         "bitrate": "64kbps"
     },
-{"id":"nufais",
-"name":"أحمد النفيس"
-"subfolder":"https://audio-cdn.tarteel.ai/quran/alnufais/"
+{
+"id": 80,
+"name":"أحمد النفيس",
+"subfolder": "https://audio-cdn.tarteel.ai/quran/alnufais/",
+"bitrate":"92kbps"
 }
 ]
